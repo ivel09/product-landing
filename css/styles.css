@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f0f;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border:solid 1px black;
+}
+header>img{
+    width: 30px;
+    
+}
+header>nav{
+    display: flex;
+    align-items: center;
+    gap:10px
+    
+}
+nav-a{
+    margin: 15px;
+}
