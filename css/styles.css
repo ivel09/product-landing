@@ -2,23 +2,97 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f0f;
+    font-family: "Lato", sans-serif;
+    
 }
+body{
+    background-color: #000;
+}
+
 header{
     display: flex;
-    justify-content: space-between;
-    border:solid 1px black;
+    justify-content: space-around;
+    border-bottom:solid 1.5px #4af;
+    border-radius: 3px;
+    
 }
 header>img{
     width: 30px;
+    margin: 9px;
     
 }
 header>nav{
     display: flex;
     align-items: center;
-    gap:10px
+    gap:13px;
+
+    
     
 }
-nav-a{
+nav>a{
+    padding: 5px;
     margin: 15px;
+    color:#fff;
+    text-decoration: none;
+    border-top:1px solid #00f;
+    border-left: 1px solid #00f;
+    border-radius: 4px;
+}
+main{ 
+    margin-top: 15px;
+}
+section{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+section>h1{
+    
+}
+section>p{
+    margin: 7px;
+    
+}
+section>img{
+    width: 20rem;
+    
+    
+    
+}
+button{
+    padding: 3px;
+    border-radius:4px ;
+    color: #fff;
+    margin: 5px;
+    width: 6rem;
+}
+.uno{
+    background-color: #27f;
+    
+    border: none;
+}
+.dos{
+    background-color: transparent;
+    border: none;
+    border: 2px solid #27f;
+}
+#catalogo{
+    border:1px solid #000;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.primero>img{
+    background-color: beige;
+    max-width: 3rem;
+}
+.segundo>img{
+    max-width: 2rem;
+
+}
+.tercero>img{
+    max-width: 2rem;
 }
